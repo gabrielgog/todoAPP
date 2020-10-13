@@ -2,8 +2,7 @@
     // jshint: esversion: 6
     
 
-    console.log(module)
-
+ module.exports = getDate()
     
     function getDate(){
 
@@ -22,7 +21,7 @@
     let day = (today.toLocaleDateString("en-US", options))
 
 
-    return date;
+    return day
 
 
 
